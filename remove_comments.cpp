@@ -9,8 +9,6 @@ string removeComments(string c)
     string str = "";
     for (int i = 0; i < c.length(); i++)
     {
-        //if (!isspace(c[i])) // that will remove empty spaces in the string that we dont
-
         //* comment ko remove kerney ke liye
         if (c[i] == '/' and c[i + 1] == '*')
             staric_com = true;
